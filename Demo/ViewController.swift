@@ -17,8 +17,8 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    A.Core().bar()
-    B.Core().foo() //Value of type 'BClass' has no member 'foo'
+    AClass().bar()
+    BClass().foo() //Value of type 'BClass' has no member 'foo'
     CClass().fuga()
     DClass().piyo()
   }
