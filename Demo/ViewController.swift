@@ -9,14 +9,18 @@
 import UIKit
 import A
 import B
+import C
+import D
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    AClass().bar()
-    BClass().foo() //Value of type 'BClass' has no member 'foo'
+    A.Core().bar()
+    B.Core().foo() //Value of type 'BClass' has no member 'foo'
+    CClass().fuga()
+    DClass().piyo()
   }
 }
 
